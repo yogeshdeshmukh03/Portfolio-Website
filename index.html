@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yogesh Deshmukh | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo">Yogesh Deshmukh<span>.</span></h2>
+
+  <!-- ✅ Hamburger 
+  <button class="nav-toggle" aria-label="Open menu" type="button">
+    <span></span><span></span><span></span>
+  </button>  -->
+
+  <!-- ✅ nav ला class दे -->
+  <nav class="nav-links" id="navLinks">
+    <a href="#summary">Summary</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">
+  <span></span><span></span><span></span>
+</button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-content">
+
+    <div class="hero-left">
+      <h1>Hello, I'm <span class="typing"></span></h1>
+
+      <p class="hero-subtitle">
+        Software Engineer <span class="dot">•</span> Java Developer
+        <span class="dot">•</span> Spring Boot <span class="dot">•</span> Backend Engineer
+      </p>
+
+      <div class="hero-actions">
+        <a href="Update_YogeshD.pdf" class="glow-btn" download>Download Resume</a>
+        <a href="#projects" class="secondary-btn">View Projects</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="photo-frame">
+        <img src="image/yd.jpg.jpeg" alt="Yogesh Deshmukh" class="profile">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- SUMMARY -->
+<section id="summary" class="section reveal">
+  <h2>Professional Summary</h2>
+  <p>
+    Software Engineer and Backend Developer with expertise in Java and Spring Boot.
+    Proficient in developing REST APIs, backend services, and database-integrated applications
+    using MySQL and JDBC. Strong understanding of OOP, data structures, and software design principles.
+    Experienced with Git, API development, and full project lifecycle through hands-on projects.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section reveal">
+  <h2>Technical Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <h3>Backend</h3>
+      <div class="skills">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>Spring MVC</span>
+        <span>Hibernate</span>
+        <span>JDBC</span>
+        <span>REST APIs</span>
+        <span>JSP</span>
+        <span>Servlets</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Frontend</h3>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+        <span>Thymeleaf</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Database</h3>
+      <div class="skills">
+        <span>MySQL</span>
+        <span>PostgreSQL</span>
+        <span>Oracle DB</span>
+        <span>SQL</span>
+        <span>PL/SQL</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Tools</h3>
+      <div class="skills">
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Maven</span>
+        <span>IntelliJ IDEA</span>
+        <span>Eclipse IDE</span>
+         <span>VScode</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Core Concepts</h3>
+      <div class="skills">
+        <span>OOP</span>
+        <span>Collections</span>
+        <span>DSA (Basics)</span>
+        <span>Problem Solving</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section reveal">
+  <h2>Projects</h2>
+
+  <div class="grid-2">
+
+    <div class="card">
+      <img src="image/ecommerce image.png" alt="E-Commerce Project" class="project-img">
+
+      <h3>E-Commerce Web Application</h3>
+
+      <p class="tech">
+        Java | Spring Boot | Spring Security | Hibernate | MySQL | Thymeleaf
+      </p>
+
+      <p>
+        Developed a full-stack E-Commerce web application using Spring Boot and MySQL with secure authentication
+        and role-based access. Users can browse products, manage carts, and place orders, while admins manage
+        products and inventory.
+      </p>
+
+      <ul class="features">
+        <li>Secure User Authentication (Spring Security)</li>
+        <li>Role-Based Access Control (Admin/User)</li>
+        <li>Product Listing & Cart Management</li>
+        <li>Order Placement</li>
+        <li>Admin Product Management</li>
+      </ul>
+
+      <a href="https://github.com/yogeshdeshmukh03/Ecommerce-Website-Spring-Boot-"
+         target="_blank" class="btn">
+        View Source Code
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="image/employee image.png" alt="Employee Management System" class="project-img">
+
+      <h3>Employee Management System</h3>
+
+      <p class="tech">
+        Core Java | Java Swing | JDBC | MySQL
+      </p>
+
+      <p>
+        Developed a desktop-based Employee Management System using Core Java and Swing GUI with MySQL integration.
+        Enables efficient employee record management with CRUD operations, search functionality, and interactive UI screens.
+      </p>
+
+      <ul class="features">
+        <li>Add / Update / Delete Employee Records</li>
+        <li>Search Employee by ID</li>
+        <li>Java Swing GUI Screens</li>
+        <li>MySQL Integration using JDBC</li>
+        <li>Icon/UI with Splash Screen</li>
+      </ul>
+
+      <a href="https://github.com/yogeshdeshmukh03/Employee-Management-System"
+         target="_blank" class="btn">
+        View Source Code
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section reveal">
+  <h2>Experience</h2>
+
+  <div class="grid-3">
+
+    <div class="card">
+      <img src="image/vfs_logo.png" alt="VFS Global" class="company-logo">
+      <h3>Internship Trainee — VFS Global</h3>
+      <p class="experience-meta">Jan 2025 – Feb 2025 | Pune, Maharashtra</p>
+
+      <p>
+        Completed Future Skills Training and Internship with FUEL Pune in collaboration with VFS Global,
+        focusing on Core Java development and real-world software practices.
+      </p>
+
+      <ul class="features">
+        <li>Worked on Core Java programming concepts</li>
+        <li>Strengthened problem-solving and OOP skills</li>
+        <li>Gained industry exposure and mentorship</li>
+        <li>Participated in industry sessions and technical training</li>
+        <li>Completed certification in Future Skills Training</li>
+      </ul>
+
+      <a href="image/vfs.Global.jpeg" target="_blank" class="link-btn">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <img src="image/yhills_logo.png" alt="YHills" class="company-logo">
+      <h3>Web Development Intern — YHills</h3>
+      <p class="experience-meta">Dec 2022 – Jan 2023 | Remote</p>
+
+      <p>
+        Completed a Web Development Internship at YHills, building responsive web pages
+        and improving debugging, coding practices, and understanding development workflow.
+      </p>
+
+      <ul class="features">
+        <li>Developed responsive pages using HTML, CSS, JavaScript</li>
+        <li>Worked on frontend and basic backend concepts</li>
+        <li>Improved debugging and coding best practices</li>
+        <li>Collaborated on mini-projects</li>
+      </ul>
+
+      <a href="yhills_intership-01.pdf" target="_blank" class="link-btn">View Internship Certificate</a>
+      <a href="yhills_intership-02.pdf" target="_blank" class="link-btn">View Course Certificate</a>
+    </div>
+
+    <div class="card">
+      <img src="image/vibrantmind_logo.Png" alt="VibrantMinds Technologies" class="company-logo">
+      <h3>Software Development Intern — VibrantMinds Technologies Pvt Ltd</h3>
+      <p class="experience-meta">Jul 2025 – Present | Pune, Maharashtra | On-site</p>
+
+      <p>
+        Working as a Software Development Intern contributing to web application development using Java
+        and modern web technologies. Gaining hands-on full-stack experience with frameworks and DB integration.
+      </p>
+
+      <ul class="features">
+        <li>Web apps using HTML, CSS, JavaScript, and Java</li>
+        <li>Spring Boot, Spring MVC, Hibernate, and JSP</li>
+        <li>REST APIs + MySQL integration using JDBC</li>
+        <li>Applying OOP concepts in real-world tasks</li>
+        <li>Improving workflow and problem-solving</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<!-- EDUCATION -->
+
+
+<section id="education" class="section reveal">
+  <h2 class="edu-title">EDUCATION</h2>
+  <p class="edu-sub">
+    My education has been a journey of learning and development. Here are the details of my academic background.
+  </p>
+
+  <div class="timeline">
+
+    <!-- 1) BE (LEFT) -->
+    <div class="timeline-item left">
+      <div class="timeline-card">
+        <div class="timeline-top">
+          <img src="image/nmu_logo.png" alt="NMU" class="timeline-logo">
+          <div>
+            <h3>Bachelor of Engineering (B.E.) in Computer Science & Engineering</h3>
+            <div class="timeline-place">SSBT’s COET, Jalgaon • KBC North Maharashtra University</div>
+            <div class="timeline-date">Aug 2021 – Jul 2025</div>
+          </div>
+        </div>
+
+        <div class="timeline-grade"><b>Grade:</b> 7.44 CGPA</div>
+        <p class="timeline-text">
+          Built a strong foundation in Data Structures, Algorithms, OOP, DBMS, Web Development, and Software Engineering
+          through academic coursework and projects.
+        </p>
+      </div>
+      <span class="timeline-dot"></span>
+    </div>
+
+    <!-- 2) XII (RIGHT) -->
+    <div class="timeline-item right">
+      <span class="timeline-dot"></span>
+      <div class="timeline-card">
+        <div class="timeline-top">
+          <img src="image/school_logo.png" alt="Parth Sainiki School" class="timeline-logo">
+          <div>
+            <h3>State Board (XII) — Physics, Chemistry, Math, Biology (PCMB)</h3>
+            <div class="timeline-place">Parth Sainiki School & Jr College, Jalna</div>
+            <div class="timeline-date">Apr 2020 – March 2021</div>
+          </div>
+        </div>
+
+        <div class="timeline-grade"><b>Grade:</b> 77%</div>
+        <p class="timeline-text">
+          I completed my Class 12 education under the State Board, studying Physics, Chemistry, Mathematics and Biology (PCMB).
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section id="services" class="section reveal">
+  <h2 class="section-title">My Services</h2>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+      <h3>Frontend Design</h3>
+      <p>
+        Expert in Front-End Development with proficiency in HTML, CSS, JavaScript and modern UI.
+        Skilled in building responsive, interactive, and user-friendly web applications.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+      <h3>Backend Build</h3>
+      <p>
+        Strong command of Java, Spring Boot, Hibernate, REST APIs. Skilled in building secure,
+        scalable backend services with database integration.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon"><i class="fa-solid fa-terminal"></i></div>
+      <h3>Problem Solver</h3>
+      <p>
+        Skilled in problem-solving, debugging, and optimizing code for better performance and
+        clean architecture.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact-premium">
+  <div class="contact-wrapper">
+
+    <div class="contact-left">
+      <h2>Contact Me</h2>
+
+      <p><i class="fas fa-paper-plane"></i> deshmukhyogesh077@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91 9657688306</p>
+
+      <div class="contact-socials">
+        <a href="https://www.instagram.com/yogesh_deshmukh__07?igsh=NjR4N3p5NndncDN0"
+           target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://github.com/yogeshdeshmukh03"
+           target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/yogesh-deshmukh-74a43229"
+           target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <!-- HackerRank (FontAwesome icon not available -> HR badge) -->
+        <a href="https://www.hackerrank.com/profile/deshmukhyogesh01"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="hr-badge"
+   aria-label="HackerRank Profile">
+
+   <i class="fab fa-hackerrank"></i>
+   
+</a>
+      </div>
+
+      <a href="Update_YogeshD.pdf" download class="cv-btn">Download CV</a>
+    </div>
+
+    <form id="contactForm" class="contact-right">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Yogesh Deshmukh
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
